@@ -2,3 +2,5 @@ venv
 small
 missing.txt
 contained.txt
+plates/*
+plates
