@@ -33,4 +33,4 @@ def main():
 if __name__ == '__main__':
     main()
 
-# python3 lab4/lab4_1.py -i lab4/video.mp4 -b 0 -e 4
+# python3 lab4/lab4_1.py -i lab4/video.mp4 -b 0 -e 4 -o lab4/cropped.mp4
