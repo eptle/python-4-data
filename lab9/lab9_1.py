@@ -1,6 +1,5 @@
 import openpyxl
 from openpyxl.styles import Alignment, Font
-from openpyxl.utils import get_column_letter
 
 data = [
     {"Таб. номер": "0002", "Фамилия": "Петров П.П.", "Отдел": "Бухгалтерия", "Сумма по окладу, руб.": 3913.04, "Сумма по надбавкам, руб.": 2608.7, "НДФЛ, %": 13},

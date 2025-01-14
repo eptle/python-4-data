@@ -1,5 +1,4 @@
 from openpyxl import Workbook, load_workbook
-from openpyxl.chart import PieChart, Reference
 
 file_path = 'lab9/table.xlsx'
 wb = load_workbook(file_path)

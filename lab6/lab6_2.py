@@ -1,10 +1,8 @@
 import xml.etree.ElementTree as ET
 
-input_file = "lab6/ex_2.xml"
-output_file = "lab6/ex_2_modified.xml"
 
 if __name__ == "__main__":
-    tree = ET.parse(input_file)
+    tree = ET.parse("lab6/ex_2.xml")
     root = tree.getroot()
 
     detail = root.find("Detail")
@@ -29,4 +27,4 @@ if __name__ == "__main__":
     summary.find("Summ").text = f"{new_sum:.2f}".replace(".", ",")
     summary.find("SummRows").text = str(new_rows)
 
-    tree.write(output_file, encoding="utf-8", xml_declaration=True)
+    tree.write("lab6/ex_2_modified.xml", encoding="utf-8", xml_declaration=True)
